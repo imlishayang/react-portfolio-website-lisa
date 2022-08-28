@@ -1,20 +1,32 @@
 import React from 'react'
+import HeroImage from "../assets/profile.jpg";
+import {IoIosArrowForward} from 'react-icons/io'
 
 const Home = () => {
   return (
-    <div name="home" className='flex h-screen  w-full bg-sand'>
-      <div className='max-'>
-        <div>
-          <h2>Hi! I'm Lisa. I like to write code. I am a full stack developer</h2>
-        <p>
+    // name property is for smooth scroll
+    <div name="home" className='h-screen w-full bg-sand'>
+      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
+      <div>
+            <img src={HeroImage} alt="Lisa's Profile" className="rounded-2xl mx-auto w-2/3 md:w-full"/>
+          </div>s
+        <div className='md:ml-6'>
 
-        </p>
-        <div>
-          <button>
-            Portfolio
-          </button>
+          <p className='text-bearbrown text-xl '>Hello! I'm Lisa. </p>
+          <p className='text-bearbrown text-4xl mt-1.5 font-bold'>I am a full stack developer</p>
+          <p className='text-bearbrown text-xl py-4 '> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur expedita provident voluptatum, exercitationem sunt fugiat deserunt quibusdam quod maxime, quos neque aliquid veritatis vero ullam inventore natus eius velit non?</p>
+
+          <div>
+            <button className='bg-babyavo cursor-pointer group w-fit px-6 py-3 my-2 flex items-center rounded-md text-white'>
+              Portfolio
+              <span className='group-hover:rotate-90 duration-300'>
+                <IoIosArrowForward size={25} className="ml-1"/>
+              </span>
+            </button>
+          </div>
+
         </div>
-        </div>
+
       </div>
     </div>
   )
