@@ -32,7 +32,7 @@ const Portfolio = () => {
           <div key={id} className='shadow-md rounded-lg duration-200 hover:scale-105'>
             <img
             src={src}
-            alt="" />
+            alt=""/>
             <div className='flex item-center justify-center'>
               <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
               <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> Code</button>

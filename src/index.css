@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,6 +8,8 @@
 
 @layer base {
   html{
-    font-family: 'Poiret One', cursive;
+    font-family: 'Merriweather', serif;
   }
 }
+
+/* // font-family: 'Poiret One', cursive; */

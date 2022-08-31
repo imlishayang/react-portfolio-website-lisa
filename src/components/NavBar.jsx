@@ -40,7 +40,7 @@ const NavBar = () => {
         {links.map(({id, link}) => (
            <li
            key={id}
-           className='text-xl text-bearbrown hover:scale-105 duration-200 px-4 cursor-pointer'>
+           className='text-xl text-bearbrown hover:scale-105 duration-200 px-4 cursor-pointer hover:font-bold'>
              {link}
            </li>
         ))}
