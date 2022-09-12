@@ -23,11 +23,10 @@ const Portfolio = () => {
     <div name="projects" className='bg-sand w-full text-bearbrown md:h-screen'>
       <div className=' max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pt-16'>
-          <p className='text-4xl md:text-5xl inline  text-bearbrown py-4 tracking-widest text-left'>(003) Portfolio</p>
-          <p className='py-6'>Check out some of my projects</p>
+          <p className='text-4xl md:text-6xl inline  text-bearbrown py-4 tracking-widest text-left' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Portfolio</p>
         </div>
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 '>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 md:py-6'>
         { portfolios.map(({ id, src}) => (
           <div key={id} className='shadow-md rounded-lg duration-200 hover:scale-105'>
             <img
