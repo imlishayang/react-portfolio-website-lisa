@@ -23,7 +23,7 @@ const About = () => {
             <img src={HeroImage} alt="Lisa's Profile" width="600" height="800" className='rounded-full'/>
           </div>
 
-            <div className='text-2xl text-bearbrown pt-10 leading-normal mx-auto md:ml-6 md:text-2xl tracking-wider' data-aos="fade-up" data-aos-duration="2000"          data-aos-once="true" data-aos-delay="1000">
+            <div className='text-2xl text-bearbrown pt-10 leading-normal mx-auto md:ml-6 md:text-2xl tracking-wider' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="1000">
               <p> Hello! I'm Lisa:)</p>
               <p> I'm a junior full stack web developer. </p>
               <p> I recently completed an intensive web development bootcamp  at <a href="https://www.lewagon.com/shanghai" target="_blank"
