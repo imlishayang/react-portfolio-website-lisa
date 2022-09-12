@@ -19,13 +19,15 @@ const About = () => {
 
         <div className='flex'>
 
-          <div>
-            <img src={HeroImage} alt="Lisa's Profile" className='rounded-full' data-aos-duration="2000" data-aos-once="true" data-aos-delay="1000"/>
+          <div data-aos-duration="2000" data-aos-once="true" data-aos-delay="1000">
+            <img src={HeroImage} alt="Lisa's Profile" width="600" height="800" className='rounded-full'/>
           </div>
 
-            <div className='text-2xl text-bearbrown pt-10 leading-normal mx-auto md:mx-32 md:text-3xl tracking-wider' data-aos="fade-up" data-aos-duration="2000"          data-aos-once="true" data-aos-delay="1000">
+            <div className='text-2xl text-bearbrown pt-10 leading-normal mx-auto md:ml-6 md:text-2xl tracking-wider' data-aos="fade-up" data-aos-duration="2000"          data-aos-once="true" data-aos-delay="1000">
               <p> Hello! I'm Lisa:)</p>
-              <p> I'm a junior full stack web developer. I recently completed an intensive web development bootcamp  at <a href="https://www.lewagon.com/shanghai" className='hover:line-through'>Le Wagon, Shanghai.</a> </p>
+              <p> I'm a junior full stack web developer. </p>
+              <p> I recently completed an intensive web development bootcamp  at <a href="https://www.lewagon.com/shanghai" target="_blank"
+            rel="noopener noreferrer" className='hover:line-through'>Le Wagon, Shanghai.</a> </p>
               <p className='pt-10' data-aos-duration="2000" data-aos-once="true" data-aos-delay="900">
               I’m currently learning Javascript and React to further my frontend dev skills</p>
           </div>
