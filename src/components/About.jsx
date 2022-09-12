@@ -17,7 +17,7 @@ const About = () => {
           Who am i?
         </h2>
 
-        <div className='flex'>
+        <div className='md:flex'>
 
           <div data-aos-duration="2000" data-aos-once="true" data-aos-delay="1000">
             <img src={HeroImage} alt="Lisa's Profile" width="600" height="800" className='rounded-full'/>
