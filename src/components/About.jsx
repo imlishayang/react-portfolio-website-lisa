@@ -2,7 +2,7 @@ import React from 'react'
 // import HeroImage from "../assets/profile.jpg";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+
 
 
 const About = () => {
