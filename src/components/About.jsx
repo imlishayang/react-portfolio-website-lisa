@@ -30,7 +30,7 @@ const About = () => {
             rel="noopener noreferrer" className='hover:line-through'>Le Wagon, Shanghai.</a> </p>
               <p className='pt-10' data-aos-duration="2000" data-aos-once="true" data-aos-delay="900">
               I’m currently learning Javascript and React to further my frontend dev skills</p>
-              <p className='pt-10' data-aos-duration="2000" data-aos-once="true" data-aos-delay="900">
+              <p className='py-10' data-aos-duration="2000" data-aos-once="true" data-aos-delay="900">
              I am open to part-time and freelance projects</p>
           </div>
 
