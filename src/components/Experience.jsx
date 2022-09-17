@@ -3,8 +3,10 @@ import figma from "../assets/figma.png";
 import github from "../assets/github.png";
 import tailwindimg from "../assets/tailwind.png";
 import rubyonrails from "../assets/rubyonrails.jpg";
+import reactimg from "../assets/react.png";
+import jsimg from "../assets/js.jpg";
+import ruby from "../assets/ruby.png";
 import htmlimg from "../assets/html.png";
-import cssimg from "../assets/css.png";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -14,23 +16,23 @@ const Experience = () => {
   const techs = [
     {
       id:1,
-      src: htmlimg,
-      title: 'HTML',
+      src: reactimg,
+      title: 'React',
     },
     {
       id:2,
-      src: cssimg,
-      title: 'CSS',
+      src: jsimg,
+      title: 'JavaScript',
     },
     {
       id:3,
-      src: rubyonrails,
-      title: 'Ruby on Rails',
+      src: figma,
+      title: 'Figma',
     },
     {
       id:4,
-      src: figma,
-      title: 'Figma',
+      src: rubyonrails,
+      title: 'Ruby on Rails',
     },
     {
       id:5,
@@ -42,6 +44,16 @@ const Experience = () => {
       src: github,
       title: 'Github',
     },
+    {
+      id:7,
+      src: ruby,
+      title: 'Ruby',
+    },
+    {
+      id:8,
+      src: htmlimg,
+      title: 'HTML',
+    },
   ]
 
   return (
@@ -52,7 +64,7 @@ const Experience = () => {
 
         </div>
 
-        <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8  sm:px-0' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="1000">
+        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-10 text-center py-8  sm:px-0' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="1000">
 
           { techs.map(({id,src, title}) => (
               <div key={id} className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg'>

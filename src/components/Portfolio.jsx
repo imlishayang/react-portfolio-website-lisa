@@ -23,7 +23,7 @@ const Portfolio = () => {
     <div name="projects" className='bg-sand w-full text-bearbrown md:h-screen'>
       <div className=' max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pt-16'>
-          <p className='text-4xl md:text-6xl inline  text-bearbrown tracking-widest text-left' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Portfolio</p>
+          <p className='text-4xl md:text-6xl inline  text-bearbrown tracking-widest text-left' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Projects</p>
         </div>
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 pt-8 md:py-6'>
