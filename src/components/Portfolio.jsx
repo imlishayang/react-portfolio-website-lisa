@@ -17,7 +17,7 @@ const Portfolio = () => {
 
   return (
     <div name="projects" className='bg-sand w-full text-bearbrown md:h-screen'>
-      <div className=' max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+      <div className=' max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pt-16'>
           <p className='text-4xl md:text-6xl inline  text-bearbrown tracking-widest text-left' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Projects</p>
         </div>
@@ -48,6 +48,7 @@ const Portfolio = () => {
                 <p> - Sweet alert</p>
               </div>
             </div>
+            <div className='p-10'></div>
         </div>
       </div>
     </div>
