@@ -59,7 +59,7 @@ const Experience = () => {
   return (
     <div name="skills" className='bg-sand w-full h-screen'>
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-bearbrown'>
-        <div className='text-4xl md:text-5xl inline text-bearbrown py-4 tracking-widest text-left pt-10' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" >
+        <div className='text-4xl md:text-5xl inline text-bearbrown py-4 tracking-widest text-left pt-20' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" >
           <p>What i've been learning </p>
         </div>
 
