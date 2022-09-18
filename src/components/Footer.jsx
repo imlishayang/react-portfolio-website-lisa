@@ -13,9 +13,9 @@ const Footer = () => {
           </div>
 
             <div className=' flex justify-center'>
-              <a href='https://www.linkedin.com/in/hello-lisayang/' target="_blank" rel="noopener noreferrer" className='text-bearbrown text-4xl p-2'><FaLinkedinIn/></a>
-              <a href='https://github.com/imlishayang' target="_blank" rel="noopener noreferrer" className='text-bearbrown text-4xl p-2'><FaGithub/></a>
-              <a href={CV} target="_blank" rel="noopener noreferrer" className='text-bearbrown text-4xl p-2'><FaFile/></a>
+              <a href='https://www.linkedin.com/in/hello-lisayang/' target="_blank" rel="noopener noreferrer" className='text-bearbrown text-4xl p-2 hover:text-babybear'><FaLinkedinIn/></a>
+              <a href='https://github.com/imlishayang' target="_blank" rel="noopener noreferrer" className='text-bearbrown text-4xl p-2 hover:text-babybear'><FaGithub/></a>
+              <a href={CV} target="_blank" rel="noopener noreferrer" className='text-bearbrown text-4xl p-2 hover:text-babybear'><FaFile/></a>
             </div>
         </div>
 
