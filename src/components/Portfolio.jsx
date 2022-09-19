@@ -38,7 +38,7 @@ const Portfolio = () => {
            {/* INFO*/}
             <div>
               <p className='text-xl font-bold pb-2'>Green is NOW</p>
-              <p>Our final project built in 4 weeks for our part-time bootcamp at Le Wagon. This project stems from a passion to inform users about climate change but most importantly inspire users to reduce their carbon footprint. Users are able to track their carbon emissions saved, read about tips and tricks, access carbon emission data from their home country and track their data saved through</p>
+              <p>Green is now is our final project built in 4 weeks during our part-time bootcamp at Le Wagon. This project stems from a passion to inform users about climate change but most importantly inspire users to reduce their carbon footprint. Users are able to track their carbon emissions saved, read about tips and tricks, access carbon emission data from their home country and view their data through graphs.</p>
               <p className='text-l font-bold py-2'>Tech featured:</p>
               <div>
                 <p> - Tailwind </p>
