@@ -9,7 +9,7 @@ const Contact = () => {
           <p className='py-6' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Let's mingle!</p>
         </div>
 
-        <div className='flex justify-center items-center mx-auto'>
+        <div className='flex justify-center items-center'>
           <form action="https://getform.io/f/f9e9d92f-ff6b-4a6d-ab7f-0b171d5756d0" method="POST" className="flex flex-col w-full md:w-1/2">
             <input type="text" name="name" placeholder='Please enter your name' className='p-2 bg-white border-2 rounded-md text-brownbear focus:outline-none'/>
             <input type="text" name="email" placeholder='Please enter your e-mail' className='my-4 p-2 bg-white border-2 rounded-md text-brownbear focus:outline-none'/>
