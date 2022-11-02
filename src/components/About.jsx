@@ -24,7 +24,7 @@ const About = () => {
             <p> Hello! I'm Lisa:)</p>
             <p> I'm a junior full stack web developer. </p>
             <p> I recently completed an intensive web development bootcamp  at <a href="https://www.lewagon.com/shanghai" target="_blank" rel="noopener noreferrer" className='hover:line-through'>Le Wagon, Shanghai.</a> </p>
-            <p className='pt-10' > I’m currently learning Javascript and React to further my frontend dev skills</p>
+            <p className='pt-10' > I’m currently learning Javascript and React to further my frontend dev skills. Check out my progress <a href="https://html-space.netlify.com" target="_blank" rel="noopener noreferrer" className='hover:line-through'>here</a>.</p>
             <p className='py-10' > I am open to part-time and freelance projects</p>
           </div>
         </div>
